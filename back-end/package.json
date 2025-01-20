@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/navya3442/back-end.git"
+    "url": "git+https://github.com/tusharchaudhary28/tushar/back-end.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/navya3442/back-end/issues"
+    "url": "https://github.com/tusharchaudhary28/tushar/back-end/issues"
   },
-  "homepage": "https://github.com/navya3442/back-end#readme",
+  "homepage": "https://github.com/tusharchaudhary28/tushar/back-end#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.21.0",
