@@ -2,9 +2,6 @@ const express = require('express');
 const jwt = require('jsonwebtoken');
 const cors = require('cors');
 const app = express();
-var dummyText = `examplefile.com | Your Example Files.
-examplefile.com | Your Example Files.
-examplefile.com | Your Example Files.`;
 
 app.use(express.json()); // For parsing JSON request body
 app.use(express.urlencoded({ extended: true }));
@@ -32,16 +29,6 @@ app.post('/get-token',(req,res)=>{
     res.send({"jwt":token});
 })
 
-app.post('/get-alerts',(req,res)=>{
-
-  console.log("triggered");
-  res.send('Welcome to my API!');
-})
-
-app.post('/test-largedata',(req,res)=>{
-  console.log("large data");
-  res.send({dummyText});
-})
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
